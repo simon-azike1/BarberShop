@@ -3,6 +3,7 @@ import Hero from './pages/Home Page/Hero';
 import Header from './layout/Header/Header'
 import Preview from "./pages/About/AboutPreview"
 import Footer from './layout/Footer/Footer'
+import Testimonials from './components/Buttons/Testimonials'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
        <Header/>
       <Hero />
       <Preview/>
+      <Testimonials/>
       <Footer/>
      
     </div>

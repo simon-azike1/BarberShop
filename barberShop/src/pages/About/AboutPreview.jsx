@@ -26,6 +26,41 @@ function AboutPreview() {
         </p>
         <button><a href="#">More About Us</a></button>
       </div>
+
+      {/* Mission Statement */}
+      <div className="about-section with-image">
+        <div className="text">
+          <h2>Our Mission</h2>
+          <p>
+            At FlowBarb, our mission is to redefine grooming by combining creativity,
+            craftsmanship, and care. We provide a comfortable space where every
+            client feels valued and leaves renewed in confidence.
+          </p>
+        </div>
+        <img
+          src="https://images.pexels.com/photos/2040189/pexels-photo-2040189.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt="Barber chair"
+        />
+      </div>
+
+      {/* Core Values */}
+      <div className="about-section with-image reverse">
+        <img
+          src="https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+
+
+          alt="Grooming tools"
+        />
+        <div className="text">
+          <h2>Our Core Values</h2>
+          <ul>
+            <li><strong>Excellence:</strong> We go above and beyond to deliver premium service.</li>
+            <li><strong>Respect:</strong> Every client is treated with warmth, dignity, and care.</li>
+            <li><strong>Innovation:</strong> We embrace the latest grooming trends and tools.</li>
+            <li><strong>Passion:</strong> We love our craft and it reflects in your results.</li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 }
