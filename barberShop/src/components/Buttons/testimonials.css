@@ -45,9 +45,9 @@
 
 .heading-testimonials {
     display: block;
-  position: relative; /* or static */
+  position: relative; 
   z-index: 1;
-  background: #fff; /* Optional: avoid background transparency flicker */
+  background: #fff;
   padding: 2rem;
   text-align: center;
 }
