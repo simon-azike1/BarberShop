@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -17,21 +18,21 @@ export default function Footer() {
             <button type="submit">Subscribe</button>
           </form>
           <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-x-twitter"></i></a>
-            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <Link to="#"><i className="fab fa-facebook-f"></i></Link>
+            <Link to="#"><i className="fab fa-x-twitter"></i></Link>
+            <Link to="#"><i className="fab fa-linkedin-in"></i></Link>
+            <Link to="#"><i className="fab fa-instagram"></i></Link>
           </div>
         </div>
 
         <div className="footer-links">
           <h4>Main Pages</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Expert Details</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="#">Services</Link></li>
+            <li><Link to="#">Pages</Link></li>
+            <li><Link to="#">Expert Details</Link></li>
           </ul>
         </div>
 

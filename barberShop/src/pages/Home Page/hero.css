@@ -77,6 +77,11 @@ h1, h2, .hero h1 {
   border: 2px solid white;
   color: white;
 }
+
+.secondary-btn:hover{
+  background-color: orange !important;
+}
+
 .fa-star {
   font-size: 10px;         
   color: orange;             

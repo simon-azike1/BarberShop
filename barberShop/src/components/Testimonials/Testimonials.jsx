@@ -50,7 +50,7 @@ const Testimonials = () => {
             
             <header className="heading-testimonials">
                 <h2>What Our Clients Are Saying About Us</h2>
-                <p>
+                <p style={{color:"black"}}>
                     Our expert barbers specialize in classic, modern, and custom cuts for all hair types and textures. 
                     Whether it's a timeless style or the latest trend, we ensure you leave looking your best.
                 </p>
@@ -111,7 +111,6 @@ const Testimonials = () => {
                 
                 {/* Slide indicators */}
                 <div className="slide-indicators" role="tablist" aria-label="Testimonial indicators">
-                    {/* Fixed: Using correct variable name */}
                     {testimonialData.map((_, index) => (
                         <button
                             key={index}
