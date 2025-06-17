@@ -30,18 +30,18 @@ export default function Footer() {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="#">Services</Link></li>
-            <li><Link to="#">Pages</Link></li>
-            <li><Link to="#">Expert Details</Link></li>
+            <li><Link to="/service">Services</Link></li>
+            <li><Link to="/contact">Contact Us</Link></li>
+            <li><Link to="/expertDetails">Expert Details</Link></li>
           </ul>
         </div>
 
         <div className="footer-links">
           <h4>Utility Pages</h4>
           <ul>
-            <li><a href="#">Booking Guide</a></li>
-            <li><a href="#">Blog page</a></li>
-            <li><a href="#">Back drop</a></li>
+            <li><a href="/">Booking Guide</a></li>
+            <li><a href="/">Blog page</a></li>
+            <li><a href="/">Back drop</a></li>
           </ul>
         </div>
       </div>

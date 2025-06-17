@@ -78,7 +78,7 @@ h1, h2, .hero h1 {
   color: white;
 }
 
-.secondary-btn:hover{
+.secondary-btn :hover{
   background-color: orange !important;
 }
 

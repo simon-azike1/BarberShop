@@ -5,7 +5,6 @@ import "./header.css";
 
 function Header() {
   const [isOpen, setOpen] = useState(false);
-
   return (
     <header>
       <div className="logo">
@@ -28,10 +27,10 @@ function Header() {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
-          <li><Link to="#">Services</Link></li>
-          <li><Link to="#">Pages</Link ></li>
-          <li><Link to="#">Blog</Link></li>
-          <li clLink  className="book"><Link to="#">Book Link  ppointment</Link></li>
+          <li><Link to="/service">Services</Link></li>
+          <li><Link to="/contact">Contact</Link ></li>
+          <li><Link to="/blog">Blog</Link></li>
+          <li  className="book"><Link to="#">Book appointment</Link></li>
         </ul>
       </nav>
     </header>

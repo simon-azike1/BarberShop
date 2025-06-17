@@ -6,6 +6,9 @@ import Preview from './pages/About/AboutPreview';
 import Footer from './layout/Footer/Footer';
 import Testimonials from './components/Testimonials/Testimonials';
 import About from './pages/About/About';
+import Services from './pages/Services/Services';
+import Contact from './pages/Contact/Contact';
+import Blog from './pages/BlogPage/Blog';
 
 function Home() {
   return (
@@ -25,6 +28,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} /> 
+        <Route path="/service" element={<Services/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/blog' element={<Blog/>}/>
       </Routes>
     </Router>
   );
