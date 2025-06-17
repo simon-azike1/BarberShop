@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './aboutPreview.css'; // Plain CSS file
+import './aboutPreview.css'; 
+import { Link } from 'react-router-dom';
 
 function AboutPreview() {
   const [activeValue, setActiveValue] = useState(null);
@@ -63,10 +64,13 @@ function AboutPreview() {
                 ensuring that you leave our salon not just looking great, but feeling
                 confident and empowered.
               </p>
-              <button className="btn-primary">
+             <Link to="/about" >
+             <button className="btn-primary">
                 More About Us
                 <span className="btn-arrow">→</span>
               </button>
+             </Link>
+            
             </div>
           </div>
         </section>
