@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import './services.css';
 import Header from '../../layout/Header/Header';
 import Footer from '../../layout/Footer/Footer';
 import Images from '../../assets/Images/hero-bg.jpg'
