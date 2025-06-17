@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AboutPreview.css'; // Plain CSS file
+import './aboutPreview.css'; // Plain CSS file
 
 function AboutPreview() {
   const [activeValue, setActiveValue] = useState(null);
