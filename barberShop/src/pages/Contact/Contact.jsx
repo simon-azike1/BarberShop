@@ -16,7 +16,8 @@ const Contact = () => {
         Get In Touch
     </h1>
     <div className="hero-text">
-        We're here to help! Reach out for appointments, questions, or just to say hi.   
+        We're here to help! <br />
+        Reach out for appointments, questions, or just to say hi.   
  </div>
 </secction>
 
